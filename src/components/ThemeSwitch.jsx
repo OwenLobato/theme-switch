@@ -31,7 +31,7 @@ export const ThemeSwitch = () => {
 
   return (
     <div className='flex flex-col items-center justify-center space-x-4'>
-      <p className='text-xl'>Selected theme: {theme}</p>
+      <p className='text-xl text-textTilte'>Selected theme: {theme}</p>
 
       <div className='flex gap-2'>
         {THEMES.map((themeMode) => (
